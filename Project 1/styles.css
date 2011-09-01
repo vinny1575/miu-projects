@@ -19,8 +19,8 @@ body {
 	margin: 20px auto 0; -webkit-box-shadow: 10px 10px 10px #888;}
 body#home #container{height: 1100px;}
 body#home #container p{margin: 50px 0 0 0;}
-body#home #container a{text-decoration:none;text-transform:uppercase;color:#000;display:block;padding:15px;margin:20px 0 0 0;font-size:26px;text-align:center;background-image: -webkit-gradient(linear, left top, left bottom, from(#f6dfad), to(#c7924c));-webkit-box-shadow: 5px 5px 5px #888;}
-body#home #container a:hover{text-decoration:none;text-transform:uppercase;color:#000;display:block;padding:15px;margin:20px 0 0 0;font-size:26px;text-align:center;background-image: -webkit-gradient(linear, left top, left bottom, from(#c7924c), to(#f6dfad));}
+body#home #container a{text-decoration:none;text-transform:uppercase;color:#000;display:block;padding:15px;margin:20px 0 0 0;font-size:100%;text-align:center;background-image: -webkit-gradient(linear, left top, left bottom, from(#f6dfad), to(#c7924c));-webkit-box-shadow: 5px 5px 5px #888;}
+body#home #container a:hover{text-decoration:none;text-transform:uppercase;color:#000;display:block;padding:15px;margin:20px 0 0 0;font-size:100%;text-align:center;background-image: -webkit-gradient(linear, left top, left bottom, from(#c7924c), to(#f6dfad));}
 #header h1 {
     margin: 0;
     padding: 0;
@@ -119,4 +119,7 @@ form > p { margin: 5px 0; }
 
 #image {
 	width: 100%;
+}
+#info {
+	margin: 10%;
 }
