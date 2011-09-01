@@ -17,7 +17,7 @@ body {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#f6dfad));
 	width: 80%;
 	margin: 20px auto 0; -webkit-box-shadow: 10px 10px 10px #888;}
-body#home #container{height: 1000px;}
+body#home #container{height: 1100px;}
 body#home #container p{margin: 50px 0 0 0;}
 body#home #container a{text-decoration:none;text-transform:uppercase;color:#000;display:block;padding:15px;margin:20px 0 0 0;font-size:26px;text-align:center;background-image: -webkit-gradient(linear, left top, left bottom, from(#f6dfad), to(#c7924c));-webkit-box-shadow: 5px 5px 5px #888;}
 body#home #container a:hover{text-decoration:none;text-transform:uppercase;color:#000;display:block;padding:15px;margin:20px 0 0 0;font-size:26px;text-align:center;background-image: -webkit-gradient(linear, left top, left bottom, from(#c7924c), to(#f6dfad));}
