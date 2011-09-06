@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Homework List</title>
+</head>
+<body id="home">
+<div id="container">
+  <div id="header">
+    <h1>iDoHomework</h1>
+  </div><!-- header -->
+  
+  	<table>
+  	<td><div id="main">
+   	<img id="image" src="images\512.png"/></td>
+   	<td width="150">This app provides a very simplistic way to create a homework list for the average student. There is also a nice little collection of information to assist you with common issues students come across</td>
+   	
+  	</table>
+    <div id="margin">
+    <h2>Search</h2>
+    <input type="search" id="search"/>
+    <h2>Browse</h2>
+    </div>
+    <div id="buttons">
+    <a href="iDoHomework.html">Add An Assignment</a>
+    <a href="homeworktips.html">Homework Tips</a>
+    <a href="universitynews.html">University News</a>
+    <a href="timemanagement.html">Time Management</a>
+    <a href="tutoring.html">Tutoring</a>
+    </div><!-- buttons -->
+	</div><!-- main -->
+	<div id="list"></div>
+	<p id="options">
+		<a id="clear" onmouseover="mouseHover();" onmouseout="mouseOut();" href="#">clear local storage</a></p>
+</div><!-- container -->
+<script src="add_item.js"></script>
+</body>
+</html>

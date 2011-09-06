@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Homework List</title>
+</head>
+<body>
+<div id="container">
+  <div id="header">
+    <h1><a>Add Homework Item</a></h1>
+  </div><!-- header -->
+    <div id="main">
+    <form action="#" method="post">	    
+	    <ul>
+	    	<li>
+	    		<p>Name: <br />
+	    		<input type="text" id="itemName" /></p>
+	    		<p>Time (Minutes): <br />
+	    		<span id="range">0</span><br />
+	    		<input type="range" id="itemQty" min="1" max="240" 
+	    		onchange="showValue(this.value)"/></p>
+	    		
+				<p>Urgent? <br />
+				<input type="checkbox" id="favorite" /></p>
+				<p>Due By: <br />
+				<input type="date" id="purchaseDate" /></p>
+	    		<p>Notes: <br />
+			    <textarea id="notes">&nbsp;</textarea></p>
+	    	</li>
+	    </ul>
+	    <p><input id="submit" type="submit" value="submit" /></p>
+	    <p><input id="editItem" type="submit" value="edit" /></p>
+    </form>
+	</div><!-- main -->
+	<div id="list"></div>
+	<p id="options">
+		<a id="clear" onmouseover="mouseHover();" onmouseout="mouseOut();" href="#">clear local storage</a></p>
+</div><!-- container -->
+<script src="add_item.js"></script>
+<script>getItems();</script>
+</body>
+</html>
