@@ -125,3 +125,7 @@ form > p { margin: 5px 0; }
 }
 
 h3{text-decoration:none;text-transform:uppercase;color:#000;display:block;padding:15px;margin:20px 0 0 0;font-size:100%;text-align:center;background-image: -webkit-gradient(linear, left top, left bottom, from(#f6dfad), to(#c7924c));-webkit-box-shadow: 5px 5px 5px #888;}
+
+#lists{
+background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#f6dfad));
+}
