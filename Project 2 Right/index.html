@@ -2,8 +2,10 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<link rel="stylesheet" type="text/css" href="jquery2.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Homework List</title>
+	
 </head>
 <body id="home">
 <div id="container">
@@ -23,17 +25,43 @@
     <h2>Browse</h2>
     </div>
     <div id="buttons">
+    
+ <div data-role="page">   
+    <div data-role="content">
+			
+			<div data-role="collapsible" data-collapsed="true">
+				<h3>Test</h3>
+				<p>Jocelyn</p>
+				
+			</div>
+			
+		</div>
+	
+</div>
+
     <a href="iDoHomework.html">Add An Assignment</a>
-    <a href="homeworktips.html">Homework Tips</a>
-    <a href="universitynews.html">University News</a>
-    <a href="timemanagement.html">Time Management</a>
-    <a href="tutoring.html">Tutoring</a>
+    <a href="homeworktips.html">Political Science</a>
+    <a href="universitynews.html">Legal Studies</a>
+    <a href="timemanagement.html">Science</a>
+    <a href="tutoring.html">Arts</a>
+    <a href="tutoring.html">Social Studies</a>
+
+
+
+
     </div><!-- buttons -->
 	</div><!-- main -->
 	<div id="list"></div>
 	<p id="options">
 		<a id="clear" onmouseover="mouseHover();" onmouseout="mouseOut();" href="#">clear local storage</a></p>
 </div><!-- container -->
+
+
+
+<!-- jquery -->
+
+<script src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.0a2/jquery.mobile-1.0a2.min.js"></script>
 <script src="add_item.js"></script>
 </body>
 </html>
