@@ -36,9 +36,9 @@
 	    		onchange="showValue(this.value)" value="30"/></p>
 	    		
 				<p>Urgent? <br />
-				<input type="checkbox" id="favorite" /></p>
+				<input type="checkbox" checked="yes" id="favorite" /></p>
 				<p>Due By: <br />
-				<input type="date" title="2011-12-21.." id="purchaseDate" /></p>
+				<input type="date" id="purchaseDate" /></p>
 	    		<p>Notes: <br />
 			    <textarea placeholder="Enter some notes here about your assignment.." id="notes"></textarea></p>
 	    	</li>
@@ -76,9 +76,14 @@
 				$(document).ready(function()
 				{
 					$('input[type=text]').setDefaultValue();
-					$('input[type=date]').setDefaultValue();
 					
 				});
+				
+				$(document).ready( function() {
+			    var now = new Date();
+			    var today = now.getFullYear() + '-' + (now.getMonth() + 1) + '-' + now.getDate();
+			    $('#purchaseDate').val(today);
+});
 
 
 	</script>
