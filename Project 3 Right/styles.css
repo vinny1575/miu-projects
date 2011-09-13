@@ -11,7 +11,9 @@ body {
 	#options a { color: #900; }
 
 #editItem { display: none; }
-	
+#submit {
+font-size: 70px;
+}	
 	
 #container { border: 1px solid black;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#f6dfad));
